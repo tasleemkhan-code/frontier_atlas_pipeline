@@ -4,13 +4,13 @@ An asynchronous, high-throughput data ingestion and enrichment engine engineered
 
 ---
 
-## 📌 Overview
+## Overview
 
 FrontierAtlas automates the end-to-end extraction and normalization of real-world AI entities. It concurrently harvests over 3,000+ authentic records across startups, products, ArXiv research papers with live GitHub star metrics, active job listings, and news feeds—enforcing strict schema adherence and deterministic entity canonicalization.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **High-Throughput Concurrency:** Built on Python’s `asyncio` and `aiohttp` to fetch thousands of entity records concurrently without blocking the event loop.
 * **Live GitHub Metric Extraction:** Scans ArXiv paper abstracts for linked GitHub repositories using regex patterns and pulls real-time stargazer counts via the GitHub REST API.
@@ -20,7 +20,7 @@ FrontierAtlas automates the end-to-end extraction and normalization of real-worl
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 frontier_atlas_pipeline/
